@@ -1,8 +1,13 @@
 #EJEMPLO DE USO DE GITHUB
+wn = 0
 print("INGRESO DE DATOS")
 print("----------------")
 vNom = input("Ingrese su Nombre:  ")
-vEdad = input("Ingrese su Edad:  ")
+while>:
+ vEdad = int(input("Ingrese su Edad:  "))
+except:
+ print("Error de Ingreso")
+
 print("--------------------------")
 print(f"su Nombre es: {vNom}")
 print(f"su Edad es: {vEdad}")
